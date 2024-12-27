@@ -35,7 +35,7 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
+   #71ecdd/* hsl(45, 100%, 71%) 0%*/, 
     hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
@@ -50,8 +50,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    #71ecdd/*(45, 100%, 72%)*/, 
+    #71ecdd/*(35, 100%, 68%)*/
   );
 
   /* solid */
@@ -63,11 +63,11 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: #71ecdd/*(45, 100%, 72%)*/;
+  --vegas-gold: #71ecddhsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --bittersweet-shimmer: #71ecdd(0, 43%, 51%);
 
   /**
    * typography
@@ -344,7 +344,7 @@ article.active {
 
 
 .custom-info-btn {
-  background-color: gold; /* Sets the button background to gold */
+  background-color: #71ecdd; /* Sets the button background to gold */
   color: black; /* Sets the text color to black for contrast */
   border: 2px solid black; /* Adds a black border */
   padding: 0.5px 1px; /* Reduces padding for a smaller button */
@@ -364,7 +364,7 @@ article.active {
 }
 
 .custom-info-btn:hover {
-  background-color: #f0e5a1; /* Changes background to a lighter gold on hover */
+  background-color: #9eebe2; /* Changes background to a lighter gold on hover */
 }
 
 
@@ -441,7 +441,7 @@ main {
   border-radius: 0 25px;
   font-size: 23px;
   color: var(--orange-yellow-crayola);
-  background: #f7e07c; /* Brightened background color */
+  background: #81c9c1; /* Brightened background color */
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -453,7 +453,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: #816c2e; /* Brightened background color */
+  background: #4f7773; /* Brightened background color */
   transition: var(--transition-1);
   z-index: -1;
 }
